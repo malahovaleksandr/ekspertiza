@@ -1,0 +1,17 @@
+.footer {
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+ height: 90px;
+  .fotter__logo{
+    background: url('../image/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:50px;
+    height: 60px;
+  }
+  .fotter__text{
+    margin-left: 20px;
+  }
+}

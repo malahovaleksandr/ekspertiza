@@ -1,0 +1,13 @@
+.ekspertProfil {
+
+  @media screen and (min-width: 769px) {padding: 30px 60px;};
+  @media screen and (min-width: 481px) and (max-width:768px){padding: 15px 30px;};
+  @media screen and (max-width: 480px){padding: 10px 5px;};
+  .ekspertProfil__text{
+    font-weight: 500;
+
+    @media screen and (min-width: 481px) {font-size:1.7rem;};
+    @media screen and (max-width: 480px){font-size:1.4rem;};
+
+  }
+}

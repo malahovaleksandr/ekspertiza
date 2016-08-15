@@ -1,0 +1,35 @@
+
+.main-contant{
+
+  position: relative;
+  display:flex;
+  flex-direction: column;
+
+  line-height: 1.5;
+  width: 100%;
+
+
+  .wrap_background{
+    background: url('../image/mainBack.jpg');
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  .main-content_text {
+    text-indent: 20px;
+    //font-family: $font3;
+    font-weight: 500;
+
+    opacity:1;
+
+    text-align: justify;
+
+    @media screen and (min-width: 1240px) { padding: 30px 60px;font-size:1.5rem;};
+    @media screen and (min-width: 769px) and (max-width: 1239px){ padding: 20px 30px;font-size:1.7rem;};
+    @media screen and (min-width: 481px) and (max-width:768px){padding: 15px 10px;font-size:1.7rem;};
+    @media screen and (max-width: 480px){padding: 10px 7px;font-size:1.4rem;};
+  }
+
+}

@@ -2,9 +2,20 @@ include add/_mixin
 extends add/main
 
 block headContent
-    include add/headerPage
+    include add/header
 
 block menu
+    .header-nav
+        a(href="../index.html").nav-link
+            .nav-link__text ГЛАВНАЯ
+        a(href="contacts.html").nav-link
+            .nav-link__text КОНТАКТНАЯ ИНФОРМАЦИЯ
+        a(href="leadership.html").nav-link
+            .nav-link__text О РУКОВОДСТВЕ
+        a(href="ekspertProf.html").nav-link.nav_link_activ
+            .nav-link__text ЭКСПЕРТНЫЙ ПРОФИЛЬ
+        a(href="ekspertProf.html").nav-link
+            .nav-link__text СОТРУДНИЧЕСТВО
     .wrap_background
     .ekspertProfil
         .ekspertProfil__text.

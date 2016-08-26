@@ -1,13 +1,11 @@
 
 .main-contant{
-
   position: relative;
   display:flex;
   flex-direction: column;
-
   line-height: 1.5;
   width: 100%;
-
+  overflow: hidden;
 
   .wrap_background{
     background: url('../image/mainBack.jpg');
@@ -19,17 +17,56 @@
   }
   .main-content_text {
     text-indent: 20px;
-    //font-family: $font3;
     font-weight: 500;
-
     opacity:1;
-
     text-align: justify;
 
-    @media screen and (min-width: 1240px) { padding: 30px 60px;font-size:1.5rem;};
-    @media screen and (min-width: 769px) and (max-width: 1239px){ padding: 20px 30px;font-size:1.7rem;};
-    @media screen and (min-width: 481px) and (max-width:768px){padding: 15px 10px;font-size:1.7rem;};
-    @media screen and (max-width: 480px){padding: 10px 7px;font-size:1.4rem;};
+    @media screen and (min-width: 1240px) { padding: 30px 60px;font-size:1.2rem;};
+    @media screen and (min-width: 769px) and (max-width: 1239px){ padding: 20px 30px;font-size:1.2rem;};
+    @media screen and (min-width: 481px) and (max-width:768px){padding: 15px 10px;font-size:1.1rem;};
+    @media screen and (max-width: 480px){padding: 10px 7px;font-size:1rem;};
   }
+
+}
+//настройки навишации кнопок меню
+.header-nav{
+  width: 100%;
+  display: flex;
+
+  justify-content:space-between;
+
+  @media screen and  (max-width:768px){ flex-wrap: wrap;justify-content:flex-start;};
+
+  .nav-link{
+    display: flex;
+
+    margin: 0 10px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    height: 50px;
+    font-weight: 700;
+    border: 1px solid black;
+    font-size:1.1rem;
+    background: rgba(198, 247, 254,0.5);
+    color:#000000;
+
+    @media screen and (min-width: 769px){width: 90%;};
+    @media screen and (min-width: 481px) and (max-width:768px){font-size:1rem; margin: 0;min-width: 140px;};
+    @media screen and (max-width: 480px){font-size:0.9rem;margin: 0};
+
+      &:hover{
+        color:#0000AA;
+
+        background: none;
+      }
+    }
+    .nav_link_activ{
+      color:#0000AA;
+
+      background: none;
+    }
+
 
 }

@@ -12,15 +12,14 @@ html, body {
 	width:100%;
 	height:100%;
 	position: relative;
-
-	@media screen and (min-width: 1241px){font-size: 14px;;};
-	@media screen and (max-width:1240px){font-size: 12px;};
+	font-size: 14px;
 
 }
 .wrapper_main{
 	display: flex;
 	flex-direction: column;
 	height: 100%;
+
 }
 .main-contant{
 	width: 100%;
@@ -29,10 +28,3 @@ html, body {
 .footer,.header{
 	flex:0 0 auto;
 }
-.header{
-
-	@media screen and (min-width: 769px){background: url('../image/fon5.jpg');background-repeat: no-repeat;
-		background-size: cover;};
-	@media screen and (max-width:768px){background: url('../image/fon5-768.jpg');background-repeat: no-repeat;
-		background-size: cover;};
- }

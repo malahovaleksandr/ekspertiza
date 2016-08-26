@@ -4,7 +4,19 @@ extends jade/add/main
 block headContent
     include jade/add/header
 
+
 block menu
+    .header-nav
+        a(href="index.html").nav-link.nav_link_activ
+            .nav-link__text ГЛАВНАЯ
+        a(href="page/contacts.html").nav-link
+            .nav-link__text КОНТАКТНАЯ ИНФОРМАЦИЯ
+        a(href="page/leadership.html").nav-link
+            .nav-link__text О РУКОВОДСТВЕ
+        a(href="page/ekspertProf.html").nav-link
+            .nav-link__text ЭКСПЕРТНЫЙ ПРОФИЛЬ
+        a(href="page/ekspertProf.html").nav-link
+            .nav-link__text СОТРУДНИЧЕСТВО
 
     .wrap_background
     .main-content_text

@@ -21,24 +21,25 @@
 					Адрес:430000, Республика Мордовия,<br>
 					г. Саранск, ул. Васенко, д.34 <br>
 					Тел./факс: (8-834-2) 24-37-24,<br>
-					моб.: 8-927-275-00-27 <br>
+					моб.: 8 (906) 162-79-77 <br>
 					email: anorapc@mail.ru
 				</div>
 			</header>
 			<div class="main-contant">
-				<div class="header-nav"><a href="../index.html" class="nav-link">
-						<div class="nav-link__text">ГЛАВНАЯ</div></a><a href="contacts.html" class="nav-link nav_link_activ">
-						<div class="nav-link__text">КОНТАКТНАЯ ИНФОРМАЦИЯ</div></a><a href="leadership.html" class="nav-link">
-						<div class="nav-link__text">О РУКОВОДСТВЕ</div></a><a href="ekspertProf.html" class="nav-link">
-						<div class="nav-link__text">ЭКСПЕРТНЫЙ ПРОФИЛЬ</div></a><a href="ekspertProf.html" class="nav-link">
-						<div class="nav-link__text">СОТРУДНИЧЕСТВО</div></a></div>
+				<div class="header-nav"><a href="../index.php" class="nav-link">
+						<div class="nav-link__text">ГЛАВНАЯ</div></a><a href="contacts.php" class="nav-link nav_link_activ">
+						<div class="nav-link__text">КОНТАКТНАЯ ИНФОРМАЦИЯ</div></a><a href="leadership.php" class="nav-link">
+						<div class="nav-link__text">О РУКОВОДСТВЕ</div></a><a href="ekspertProf.php" class="nav-link">
+						<div class="nav-link__text">ЭКСПЕРТНЫЙ ПРОФИЛЬ</div></a><a href="cooperation.php" class="nav-link">
+						<div class="nav-link__text">СОТРУДНИЧЕСТВО</div></a><a href="reviews.php" class="nav-link">
+						<div class="nav-link__text">ОТЗЫВЫ</div></a></div>
 				<div class="wrap_background"></div>
 				<div class="wrapper-contact">
 					<div class="contact-content">
 						<table class="contact_table">
 							<tr class="contact_td">
 								<td class="contact_tr">Контактное лицо:</td>
-								<td class="contact_tr">Ю.П. Любаев<br></td>
+								<td class="contact_tr">Р.Р. Ларин<br></td>
 							</tr>
 							<tr class="contact_td">
 								<td class="contact_tr">Адрес:</td>
@@ -54,7 +55,7 @@
 								</td>
 								<td class="contact_tr">
 									8(8342) 24-37-24,<br>
-									8(927) 275-00-27
+									8(906) 162-79-77
 								</td>
 							</tr>
 							<tr class="contact_td">
@@ -81,9 +82,10 @@
 				<div class="fotter__text">
 					Директор<br>
 					АНО «Мордовский РЭПЦ»	<br>
-					Заслуженный юрист Республики Мордовия<br>
-					Почетный работник юстиции России                                                              <b>  Ю.П. Любаев</b>
+					  <b>  Р.Р. Ларин</b>
 				</div>
+				<script src="../js/jquery.js" type="text/javascript"></script>
+				<script src="../js/main.js" type="text/javascript"></script>
 			</footer>
 		</div>
 	</body>

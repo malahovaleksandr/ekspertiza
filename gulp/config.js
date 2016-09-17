@@ -6,6 +6,10 @@ module.exports = {
             src: 'resourse/jade/*.jade',
             dist: 'public/page'
         },
+        php:{
+           src: 'resourse/php/*.php',
+           dist: 'public/php'
+        },
         scss: {
             src: 'resourse/scss/main.scss',
             dist: 'public/css/'

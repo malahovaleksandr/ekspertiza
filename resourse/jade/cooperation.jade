@@ -1,0 +1,50 @@
+include add/_mixin
+extends add/main
+
+block headContent
+    include add/header
+
+block menu
+    .header-nav
+        a(href="../index.php").nav-link
+            .nav-link__text ГЛАВНАЯ
+        a(href="contacts.php").nav-link
+            .nav-link__text КОНТАКТНАЯ ИНФОРМАЦИЯ
+        a(href="leadership.php").nav-link
+            .nav-link__text О РУКОВОДСТВЕ
+        a(href="ekspertProf.php").nav-link
+            .nav-link__text ЭКСПЕРТНЫЙ ПРОФИЛЬ
+        a(href="cooperation.php").nav-link.nav_link_activ
+            .nav-link__text СОТРУДНИЧЕСТВО
+        a(href="reviews.php").nav-link
+            .nav-link__text ОТЗЫВЫ
+    .wrap_background
+    .ekspertProfil
+        .cooperation__block
+            .cooperation__block_logo
+                a(href="http://medicalgenomics.ru" target="_blank")
+                     img(src="../image/mg_logo.jpg", alt="logo")
+            .cooperation__block_content
+                .cooperation__block__title.
+                    Medical Genomics – наш надёжный партнёр!
+                .cooperation__block__text.main-content_text
+                    p.block__text1.
+                        Напоминаем, что нашим официальным партнёром в сфере
+                        предоставления услуг ДНК-тестирования является лаборатория
+                        Medical Genomics. Это одна из самых современных генетических
+                         лабораторий в России на сегодняшний день. Специалисты Medical
+                          Genomics обладают экспертным уровнем, и всем необходимым
+                          оборудованием для проведения широкого спектра ДНК-тестов:
+                           определение отцовства, родства, криминалистический анализ
+                           ДНК и многое другое. Мы доверяем Medical Genomics,
+                           чтобы вы могли доверять нам! Ссылка на официальный
+                           сайт наших партнёров: <a href="http://medicalgenomics.ru/" target="_blank">http://medicalgenomics.ru/</a>
+
+
+
+
+
+
+
+
+

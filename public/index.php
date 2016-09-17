@@ -21,17 +21,18 @@
 					Адрес:430000, Республика Мордовия,<br>
 					г. Саранск, ул. Васенко, д.34 <br>
 					Тел./факс: (8-834-2) 24-37-24,<br>
-					моб.: 8-927-275-00-27 <br>
+					моб.: 8 (906) 162-79-77 <br>
 					email: anorapc@mail.ru
 				</div>
 			</header>
 			<div class="main-contant">
-				<div class="header-nav"><a href="index.html" class="nav-link nav_link_activ">
-						<div class="nav-link__text">ГЛАВНАЯ</div></a><a href="page/contacts.html" class="nav-link">
-						<div class="nav-link__text">КОНТАКТНАЯ ИНФОРМАЦИЯ</div></a><a href="page/leadership.html" class="nav-link">
-						<div class="nav-link__text">О РУКОВОДСТВЕ</div></a><a href="page/ekspertProf.html" class="nav-link">
-						<div class="nav-link__text">ЭКСПЕРТНЫЙ ПРОФИЛЬ</div></a><a href="page/ekspertProf.html" class="nav-link">
-						<div class="nav-link__text">СОТРУДНИЧЕСТВО</div></a></div>
+				<div class="header-nav"><a href="index.php" class="nav-link nav_link_activ">
+						<div class="nav-link__text">ГЛАВНАЯ</div></a><a href="page/contacts.php" class="nav-link">
+						<div class="nav-link__text">КОНТАКТНАЯ ИНФОРМАЦИЯ</div></a><a href="page/leadership.php" class="nav-link">
+						<div class="nav-link__text">О РУКОВОДСТВЕ</div></a><a href="page/ekspertProf.php" class="nav-link">
+						<div class="nav-link__text">ЭКСПЕРТНЫЙ ПРОФИЛЬ</div></a><a href="page/cooperation.php" class="nav-link">
+						<div class="nav-link__text">СОТРУДНИЧЕСТВО</div></a><a href="page/reviews.php" class="nav-link">
+						<div class="nav-link__text">ОТЗЫВЫ</div></a></div>
 				<div class="wrap_background"></div>
 				<div class="main-content_text">
 					<p>В целях оказания помощи правоохранительным органам, судам (судьям), судебным приставам, налоговым органам, адвокатуре, нотариату, юридическим лицам и гражданам при назначении и проведении судебных экспертиз в Республике Мордовия создана Автономная некоммерческая организация «Мордовский региональный экспертно-правовой центр» и приступила к приему материалов для производства судебных экспертиз.</p>
@@ -69,9 +70,10 @@
 				<div class="fotter__text">
 					Директор<br>
 					АНО «Мордовский РЭПЦ»	<br>
-					Заслуженный юрист Республики Мордовия<br>
-					Почетный работник юстиции России                                                              <b>  Ю.П. Любаев</b>
+					  <b>  Р.Р. Ларин</b>
 				</div>
+				<script src="../js/jquery.js" type="text/javascript"></script>
+				<script src="../js/main.js" type="text/javascript"></script>
 			</footer>
 		</div>
 	</body>

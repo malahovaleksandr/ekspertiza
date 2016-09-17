@@ -1,0 +1,46 @@
+
+include add/_mixin
+extends add/main
+
+block html_php
+    :php
+        require_once "../php/return_reviews.php"
+
+block headContent
+    include add/header
+
+block menu
+    .header-nav
+        a(href="../index.php").nav-link
+            .nav-link__text ГЛАВНАЯ
+        a(href="contacts.php").nav-link
+            .nav-link__text КОНТАКТНАЯ ИНФОРМАЦИЯ
+        a(href="leadership.php").nav-link
+            .nav-link__text О РУКОВОДСТВЕ
+        a(href="ekspertProf.php").nav-link
+            .nav-link__text ЭКСПЕРТНЫЙ ПРОФИЛЬ
+        a(href="cooperation.php").nav-link
+            .nav-link__text СОТРУДНИЧЕСТВО
+        a(href="#").nav-link.nav_link_activ
+            .nav-link__text ОТЗЫВЫ
+    .wrap_background
+    .wrapper-rewievs
+        :php
+            foreach ($review as $key => $value){
+                echo "<div class=\"rewievs-from-client\">
+                    <div class=\"rewievs-from-client_name\">".$value['name']."</div>
+                    <div class=\"rewievs-from-client_date\">Дата: ".$value['date']."</div>
+                    <div class=\"rewievs-from-client_text\">".$value['text']."</div>
+                </div>";
+            }
+
+
+        form.form-rewievs
+            .form-rewievs__title Если Вы наш клиент - оставьте Ваш отзыв!
+            label.form-rewievs__label Ваше имя:<br>
+                input(type="text", class="rewievs-form__name", placeholder="Ваше имя").form-rewievs__name
+            label.form-rewievs__label Ваш отзыв:<br>
+                textarea(cols="10", rows="5", class="rewievs-form__answer", placeholder="Ваш отзыв").form-rewievs__text
+            button(type="submit", name="form-rewievs-button").form-rewievs__button Отправить
+script(src="../js/jquery.js" type="text/javascript")
+script(src="../js/main.js" type="text/javascript")

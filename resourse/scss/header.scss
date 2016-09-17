@@ -44,8 +44,8 @@
 
     @media screen and (min-width: 1240px){ width: 250px; font-size: 1.1rem;};
     @media screen and (min-width: 769px) and (max-width:1239px){ width: 250px; font-size: 1rem;};
-    @media screen and (min-width: 481px) and (max-width:768px){ width: 212px; font-size: 0.9rem;};
-    @media screen and (max-width: 480px){ width: 212px;font-size: 0.9rem;};
+    @media screen and (min-width: 481px) and (max-width:768px){ width: 212px; font-size: 1rem;};
+    @media screen and (max-width: 480px){ width: 212px;font-size: 1rem;line-height: 1.5rem;};
   }
 }
 
@@ -56,7 +56,7 @@
   align-items: center;
   .header_logo{
     //background: rgba(255,255,255,0.5);
-    background-image: url('../image/logo1.png');
+    background-image: url('../image/logo.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 120px;
